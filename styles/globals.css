@@ -65,8 +65,7 @@ html {
 }
 
 ::selection {
-  background: var(--clr-selection-bg);
-  color: var(--clr-selection-text);
+  background: rgba(57, 80, 124, 0.674);
 }
 
 .background {

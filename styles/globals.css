@@ -68,3 +68,9 @@ html {
   background: var(--clr-selection-bg);
   color: var(--clr-selection-text);
 }
+
+.background {
+  background: url('public\images\bg.png'), url('http://127.0.0.1:8080/build/images/bg2.png');
+  background-repeat: repeat-x, repeat;
+  background-size: contain, cover;
+}

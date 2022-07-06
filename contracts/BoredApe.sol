@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 // @author codingwithdidem
 // @contact codingwithdidem@gmail.com
 
-contract BoredApe is 
+contract LAW is 
     ERC721, 
     Ownable, 
     ReentrancyGuard, 

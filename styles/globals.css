@@ -70,7 +70,11 @@ html {
 }
 
 .background {
-  background: url('public\images\bg.png'), url('http://127.0.0.1:8080/build/images/bg2.png');
+  background: url('https://raw.githubusercontent.com/tamaratackeyh/next/master/public/images/bg.png'), url('https://raw.githubusercontent.com/tamaratackeyh/next/master/public/images/bg2.png');
   background-repeat: repeat-x, repeat;
   background-size: contain, cover;
+}
+
+.text {
+  color: white;
 }

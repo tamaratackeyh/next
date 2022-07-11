@@ -16,11 +16,11 @@ export default function Home() {
       <header className="min-w-full text py-14 px-4 md:px-0">
         <div className="flex items-center container mx-auto max-w-5xl justify-between h-full">
           {/* Logo */}
-          <Link href="#">
+          
             <a className="font-coiny text-xl md:text-3xl font-bold">
               Lil' Apple WRLD
             </a>
-          </Link>
+          
 
           {/* Opensea Twitter Discord Links */}
           <nav aria-label="Contact Menu">
@@ -106,8 +106,8 @@ export default function Home() {
           </Link>
 
           <div className="flex flex-col md:flex-row md:space-x-16 space-y-10 items-center mt-20 w-full">
-            {/* BoredApe Image */}
-            <img
+            
+          <img
               src="/images/330.png"
               className="w-64 h-64 rounded-full object-cover"
             />
@@ -118,13 +118,70 @@ export default function Home() {
               </h2>
 
               <p className='mt-6 text-2xl'>
-              (Most) other projects are promising <span className='text-amber-200'>"utility"</span> and <span className='text-amber-200'>"exclusive memberships"</span>, talking about infinite <span className='text-amber-200'>scalability" </span> and hinting at unthinkable long term profit; all repeating the same exact nonsense. 
+              (Most) other projects are promising <span className='text-amber-200'>"utility"</span>, <span className='text-amber-200'>"exclusive memberships"</span>, and hinting at unthinkable long term profit; all repeating the same exact nonsense. 
     We believe that this can be done differently.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <img
+              src="/images/logo.png"
+              className="h-full w-full container max-w-lg mx-auto flex flex-col items-center pt-4 padding"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* questions*/}
+<div class="py-24 max-w-screen-sm mx-auto font-coiny">
+  <div class="text-center mb-16">
+      <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+        Frequently Asked Questions
+      </h3>
+  </div>
+  
+  <div class="px-10 sm:px-16">
+  
+  <div class="ml-5">
+    <div class="flex items-start my-8">
+      <div class="text-md">
+        <h1 class="text-gray-900 font-semibold mb-2 text-3xl">What might be your first question?</h1>
+        <p class="text-neutral-50 text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+      </div> 
+    </div>    
+  </div>
+  
+    
+  </div>
+  
+</div>
+{/* questions*/}
+<img
+              src="/images/team.png"
+            />
+            
+
     </div>
   )
 }

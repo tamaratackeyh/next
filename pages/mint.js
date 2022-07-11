@@ -225,7 +225,7 @@ export default function Mint() {
                 </p>
 
                 <div className="border-t border-b py-4 mt-16 w-full">
-                  <div className="w-full text-xl font-coiny flex items-center justify-between text-brand-yellow">
+                  <div className="w-full text-base font-coiny flex items-center justify-between text-brand-yellow">
                     <p>Total</p>
 
                     <div className="flex items-center space-x-3">
